@@ -2,7 +2,6 @@
     direction: rtl; 
     text-align: right;
  }
-
  
 /************************************************/
 /******************** HEADER ********************/
@@ -113,6 +112,42 @@ a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom:
     background: url("../images/pixel.jpg");
     text-decoration: underline;
 }
+
+/*********************/
+/***** Main Page *****/
+/*********************/
+#main_page{
+    margin-top: 30px;
+}
+
+/*********** Tabs **********/
+#tabs{
+    /* padding: 100px */
+    margin-top: 100px;
+    margin-right: 200px
+    /* margin: 0 auto; */
+}
+.tab { 
+    position: relative; 
+    /* z-index: 10;  */
+    width: 293px; 
+    height: 355px; 
+    float: right; 
+}
+
+#tab2 { 
+    margin: 0 10px; 
+}
+.img_overlay { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+}
+.tab_text { width: 228px; height: 77px; overflow: hidden; padding: 10px; position: absolute; left: 38px; bottom: 6px; color: white; background: url("../images/hp_tab_text_bg.png") no-repeat 0 0; }
+.tab_text > h3 { font-size: 14px; font-weight: bold; margin: 0;}
+.tab_text > p { font-size: 13px; margin-top: 4px; }
+.tab_text > a.read_more { float: left; color: white; position: relative; bottom: 4px; }
+.tab_text > a.read_more:hover { color: #005ca0; }
 
 /******************/
 /***** FOOTER *****/
