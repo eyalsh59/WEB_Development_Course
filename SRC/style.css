@@ -117,7 +117,7 @@ a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom:
 /******************/
 /***** FOOTER *****/
 /******************/
-#fixed_footer { 
+#fixed_footer {
     position: fixed; 
     bottom: 0px; 
     width: 100%; 
