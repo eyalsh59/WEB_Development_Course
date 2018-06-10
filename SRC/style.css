@@ -198,6 +198,36 @@ a.read_more span { padding-left: 12px; }
     color: #005ca0; 
 }
 
+/*********** Cubes **********/
+/**************************/
+.cubes { 
+    margin-top: 18px; 
+    color: #575757; 
+}
+
+.cube { 
+    position: relative; 
+    float: right; 
+    width: 244px; 
+    padding: 0 24px; 
+    height: 216px; 
+    background: url("../images/small_cube_bg.png") no-repeat 0 0; 
+}
+
+.cube2 { 
+    margin: 0 11px; 
+}
+
+.cube h3 { position: relative; height: 34px; right: 4px; line-height: 34px; font-size: 14px; font-weight: bold; margin-bottom: 15px; }
+
+.cube a.read_more { float: left; color: #72716d; }
+.cube a.read_more:hover { color: #005ca0; }
+
+.cube3 .text { float: right; font-size: 13px; width: 120px; height: 130px; overflow: hidden; }
+.cube3 img { float: left; }
+.cube3 a.read_more { float: none; display: block; margin-bottom: 8px; }
+
+
 
 /******************/
 /***** FOOTER *****/
