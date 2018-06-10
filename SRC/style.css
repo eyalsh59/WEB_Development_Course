@@ -113,3 +113,54 @@ a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom:
     background: url("../images/pixel.jpg");
     text-decoration: underline;
 }
+
+/******************/
+/***** FOOTER *****/
+/******************/
+#fixed_footer { 
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 38px; 
+    background: url("../images/footer_bg.png") repeat-x 0 0; 
+}
+
+.bottom_menu { 
+    font-size: 14px; 
+    margin-top: 16px; 
+    width: 1000px; 
+    height: 100%; 
+    margin: 0 auto;
+}
+
+#fixed_menu { 
+    color: white; 
+    list-style: none;
+}
+
+#fixed_menu > li { 
+    float: right; 
+}
+
+#fixed_menu > li.sep { 
+    margin: 0 5px; 
+}
+
+#fixed_menu > li > a { 
+    color: white; 
+}
+
+#fixed_menu > li > a:hover { 
+    color: #005CA0; 
+    text-decoration: underline;
+}
+/* FaceBook icon */
+#fixed_menu > li > a.fbLink { 
+    position: relative; 
+    display: block; 
+    bottom: 2px; 
+    width: 18px; 
+    height: 18px; 
+    background: url("../images/fb_icon.png") no-repeat 0 0; 
+}
+
