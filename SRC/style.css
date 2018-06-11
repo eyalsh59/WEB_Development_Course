@@ -400,9 +400,8 @@ a.read_more span {
 /***** contactUs *****/
 /*********************/
 .cotactUs{
-    width: 900px;
+    width: 950px;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 .contact-row::after {
@@ -419,7 +418,7 @@ a.read_more span {
 .col1{
     width: 122px;
     margin-left: 22px;
-    height: 55px;
+    height: 41px;
     float: right; 
     border: 1px solid black;
 }
@@ -428,8 +427,6 @@ a.read_more span {
     height: 440px;
     width: 425px;
     float: right; 
-    /* border: 1px solid red; */
-
 }
 
 .col3{
@@ -448,25 +445,28 @@ a.read_more span {
     color: #005CA0; 
 }
 
-.col2 .title{
+.col2 > .title{
     font-size: 15px;
 }
 
 #contactFormWrapper {
     float: right; 
-    /* border: 1px solid black; */
-    /* border-top-right-radius: 15px; */
     padding: 12px 45px;
     height: 300px;
     width: 293px;
-    background: #909090 url("../images/contact_form_bg.png") repeat-x 0 0;
+    background: url("../images/contact_form_bg.png") repeat-x 0 0;
 } 
 
 #contactFormWrapper > .form{
     font-size: 13px;
+    margin-top: -20px; 
 }
 
-.content{
+.form > .instructions{
+    font-size: 10px;
+}
+
+.col3 > .more-rows > .content{
     float: right;
     margin-left: 24px;
     color: #72716d;
@@ -475,6 +475,28 @@ a.read_more span {
     margin-top: -20px;
 }
 
+.text_in > input{
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
 
+.text_in > label{
+    float: right;
+    padding-top: 10px;
+}
+
+.free_text > textarea{
+    float: left;
+    margin-left: 40px;
+    width: 235px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.button{
+    float: left;
+    margin-bottom: 10px;
+}
 
   
