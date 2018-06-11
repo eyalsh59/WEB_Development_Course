@@ -1,6 +1,7 @@
 *{
     direction: rtl; 
     text-align: right;
+    border-box: box-sizing;
  }
 
 ul {
@@ -26,6 +27,7 @@ a { text-decoration: none; }
 
 .header{
     width: 950px;
+    height: 120px;
     margin: auto;
 }
 
@@ -394,3 +396,42 @@ a.read_more span {
     background: url("../images/fb_icon.png") no-repeat 0 0; 
 }
 
+/**********************/
+/***** contactUs *****/
+/*********************/
+.cotactUs{
+    width: 900px;
+    margin: auto;
+    border: 1px solid red;
+
+}
+
+  .contact-row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .contact-row {
+    margin: auto;
+    width: 905px;
+  }
+  
+  .col {
+    width: 293px;
+    height: 355px;
+    border: 1px solid black;
+    float: right;
+    margin: 0 2.5px;
+    border-bottom-right-radius: 15px;
+  }
+  .more-row {
+    width: 293px;
+    height: 177px;
+    border: 1px solid black;
+    float: right;
+    margin: 0 2.5px;
+    border-bottom-right-radius: 15px;
+  }
+
+  
