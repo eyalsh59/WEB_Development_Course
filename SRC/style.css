@@ -1,7 +1,7 @@
 *{
     direction: rtl; 
     text-align: right;
-    border-box: box-sizing;
+    /* border-box: box-sizing; */
  }
 
 ul {
@@ -402,36 +402,79 @@ a.read_more span {
 .cotactUs{
     width: 900px;
     margin: auto;
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
 }
 
-  .contact-row::after {
+.contact-row::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .contact-row {
+.contact-row {
     margin: auto;
     width: 905px;
-  }
+}
   
-  .col {
-    width: 293px;
-    height: 355px;
+.col1{
+    width: 122px;
+    margin-left: 22px;
+    height: 55px;
+    float: right; 
     border: 1px solid black;
-    float: right;
-    margin: 0 2.5px;
-    border-bottom-right-radius: 15px;
-  }
-  .more-row {
+}
+
+.col2{
+    height: 440px;
+    width: 425px;
+    float: right; 
+    /* border: 1px solid red; */
+
+}
+
+.col3{
+    float: right; 
+    width: 292px; 
+    margin-top: 36px;   
+}
+
+.more-rows {
+    width: 248px;
+    height: 142px;
+    padding-top: 10px;
+}
+
+.more-rows > h3, .forms {
+    color: #005CA0; 
+}
+
+.col2 .title{
+    font-size: 15px;
+}
+
+#contactFormWrapper {
+    float: right; 
+    /* border: 1px solid black; */
+    /* border-top-right-radius: 15px; */
+    padding: 12px 45px;
+    height: 300px;
     width: 293px;
-    height: 177px;
-    border: 1px solid black;
+    background: #909090 url("../images/contact_form_bg.png") repeat-x 0 0;
+} 
+
+#contactFormWrapper > .form{
+    font-size: 13px;
+}
+
+.content{
     float: right;
-    margin: 0 2.5px;
-    border-bottom-right-radius: 15px;
-  }
+    margin-left: 24px;
+    color: #72716d;
+    font-size: 13px;
+    width: 440px;
+    margin-top: -20px;
+}
+
+
 
   

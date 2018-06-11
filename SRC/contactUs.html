@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div class="header">
         <nav id="header_nav">
@@ -204,14 +206,84 @@
             <div class="col1 col">
 
             </div>
+
             <div class="col2 col">
+
+                <div id="breadcrumbs">
+                    <a title="קישור לעמוד הבית" class="treelink" href="#">עמוד הבית ></a>
+                    <span class="treetext">צור קשר</span>
+                </div>
+
+                <h1 class="title">צור קשר</h1>
+
+                <div id="contactFormWrapper">
+                    <div class="form">
+                        <h3>צור קשר</h3>
+
+                        <span class="caption"> ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</span>
+                        <span class="instructions">* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
+
+                        <div class="input_fields">
+                            <div class="text_first text_in">
+                                <label for="first_name" class="req_first">*שם פרטי</label>
+                                <input name="first_name" type="text" id="first_name" />
+                            </div>
+
+                            <div class="text_last text_in">
+                                <label for="last_name" class="req_last">*שם משפחה</label>
+                                <input name="last_name" type="text" id="last_name" />
+                            </div>
+
+                            <div class="text_phone text_in">
+                                <label for="phone" class="req_phone">*טלפון</label>
+                                <input name="phone" type="text" id="phone" />
+                            </div>
+
+                            <div class="text_email text_in">
+                                <label for="email" class="req_email"> *E-mail</label>
+                                <input name="email" type="text" id="email" />
+                            </div>
+
+                            <div class="free_text">
+                                <textarea name="Text" rows="3" cols="20">תוכן הפנייה</textarea>
+                            </div>
+
+                            <a onclick="send();" class="button" href="#">שלח</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
             <div class="col3 col">
-                <div class="more-row1 more-row">
+                <div class="more-rows cube">
+                    <h3>פרטי יצירת קשר</h3>
+                    <div class="content">
+                        <p>
+                            <strong>פז חברת נפט בע"מ
+                                <br/>
+                            </strong>יורו פארק, בניין הולנד
+                            <br/>קיבוץ יקום 60972
+                            <br/>טל. שירות לקוחות 1-800-774-774
+                            <br/>פקס.09-8641714
+                        </p>
+                    </div>
 
                 </div>
-                <div class="more-row2 more-row">
+                <div class="more-rows cube">
+                    <h3>עוד בפז</h3>
+                    <div class="content">
+                        <p>
+                            <strong>ליצירת קשר עם דוברות פז</strong>
+                            <br/>
+                            <a href="#">לחצו כאן>></a>
+                            <br>
+                            <strong>רוצים לעבוד בפז?</strong>
+                            <br>
+                            <a href="#">לחצו כאן>></a>
+                        </p>
+                    </div>
 
                 </div>
 
@@ -286,4 +358,5 @@
     </footer>
 
 </body>
+
 </html>
