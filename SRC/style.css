@@ -3,6 +3,10 @@
     text-align: right;
  }
 
+ul {
+    -webkit-padding-start: 0px;
+}
+
 .tabs::after {
     content: "";
     display: table;
@@ -38,7 +42,6 @@ body {
     width: 142px; 
     height: 93px; 
     bottom: -35px; 
-    right: 20px; 
     background: url("../images/paz_logo.png") no-repeat 0 0; 
 }
 
@@ -314,7 +317,7 @@ a.read_more span {
     color: #72716d; 
 }
 
-.cube > a.read_more:hover { 
+.cube > a.read_more:hover, .cube3 > div > a.read_more:hover { 
     color: #005ca0; 
 }
 
@@ -323,20 +326,20 @@ a.read_more span {
     margin-right: 13px; 
 }
 
-.cube3 > .text { 
+.cube3 > div { 
     float: right; 
     font-size: 13px; 
     width: 120px; 
     height: 130px; 
     overflow: hidden; 
-    line-height: 20px;
+    line-height: 23px;
 }
 
 .cube3 > img { 
     float: left; 
 }
 
-.cube3 > .text a.read_more { 
+.cube3 > div > a.read_more { 
     color: #72716d; 
 }
 
